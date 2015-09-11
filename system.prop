@@ -1,0 +1,7 @@
+#
+# system.prop for YQ601
+#
+ro.cwm.enable_key_repeat = true
+ro.build.product=msm8916_32
+ro.product.name=msm8916_32
+ro.product.device=msm8916_32
