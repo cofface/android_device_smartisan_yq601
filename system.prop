@@ -1,0 +1,66 @@
+# Audio
+af.resampler.quality=4
+ro.qc.sdk.audio.fluencetype=fluence
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
+persist.audio.fluence.speaker=true
+tunnel.audio.encode=false
+av.offload.enable=true
+audio.offload.gapless.enabled=true
+media.swhevccodectype=0
+use.voice.path.for.pcm.voip=true
+vidc.enc.narrow.searchrange=1
+
+# Media
+mm.enable.qcom_parser=38499
+mm.enable.smoothstreaming=true
+mm.disable.sec_smoothstreaming=true
+media.aac_51_output_enabled=true
+
+# set max starting background services
+ro.config.max_starting_bg=8
+
+# Bluetooth
+ro.qualcomm.bt.hci_transport=smd
+
+# Display
+debug.composition.type=c2d
+debug.sf.gpu_comp_tiling=1
+persist.hwc.mdpcomp.enable=true
+persist.hwc.ptor.enable=true
+ro.opengles.version=196608
+ro.qualcomm.cabl=2
+ro.sf.lcd_density=480
+
+# GPS
+persist.gps.qc_nlp_in_use=1
+ro.gps.agps_provider=1
+
+# NITZ
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+ril.subscription.types=NV,RUIM
+DEVICE_PROVISIONED=1
+# Start in cdma mode
+ro.telephony.default_network=20,1
+
+# Radio
+persist.radio.multisim.config=dsds
+persist.radio.apm_sim_not_pwdn=1
+rild.libargs=-d /dev/smd0
+rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
+ro.ril.ecclist=911,112,000,08,110,118,119,999,120,122
+ro.use_data_netmgrd=true
+
+# Time
+persist.timed.enable=true
+
+# perf
+ro.vendor.extension_library=/vendor/lib/libqc-opt.so
